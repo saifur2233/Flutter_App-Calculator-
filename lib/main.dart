@@ -21,15 +21,13 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-
-
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
 
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Color(0xFFAD1457),
-          title: Text('Calculator',
+          backgroundColor: Colors.cyan,
+          title: Text('Saifur Calculator',
           style: TextStyle(
             fontSize: 36.0,
 
@@ -265,7 +263,7 @@ class _CalculatorState extends State<Calculator> {
 
                         child: Text('+', style: TextStyle(fontSize: 36.0, color: Colors.white),),
 
-                        color: Color(0xFF990741),
+                        color: Colors.lightBlue,
                         alignment: Alignment.center,
 
                       ),
@@ -476,7 +474,7 @@ class _CalculatorState extends State<Calculator> {
 
                         child: Text('-', style: TextStyle(fontSize: 36.0, color: Colors.white),),
 
-                        color: Color(0xFFF3076A),
+                        color: Colors.teal,
                         alignment: Alignment.center,
 
                       ),
@@ -686,7 +684,7 @@ class _CalculatorState extends State<Calculator> {
 
                         child: Text('X', style: TextStyle(fontSize: 36.0, color: Colors.white),),
 
-                        color: Color(0xFF990741),
+                        color: Colors.red,
                         alignment: Alignment.center,
 
                       ),
@@ -866,7 +864,7 @@ class _CalculatorState extends State<Calculator> {
 
                         child: Text('/', style: TextStyle(fontSize: 36.0, color: Colors.white),),
 
-                        color: Color(0xFFF3076A),
+                        color: Colors.indigo,
                         alignment: Alignment.center,
 
                       ),
